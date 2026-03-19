@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>&lt;model-viewer&gt; template</title>
+    <title>&lt;heiji&gt; template</title>
     <meta charset="utf-8">
     <meta name="description" content="&lt;model-viewer&gt; template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- <model-viewer> HTML element -->
-    <model-viewer src="heiji-v1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <model-viewer src="heiji-v1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" scale="0.3 0.3 0.3" auto-rotate>
       <button class="Hotspot" slot="hotspot-1" data-position="-0.10840725617397873m 0.27878544056720117m 0.30035814809067385m" data-normal="0.09528690215285962m 0.4895200842272841m 0.8667701502798906m" data-visibility-attribute="visible">
           <div class="HotspotAnnotation">服部平次</div>
       </button>
@@ -25,6 +25,6 @@
     </model-viewer>  
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/{{MODELVIEWER_VERSION}}/model-viewer.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js"></script>
   </body>
 </html>
