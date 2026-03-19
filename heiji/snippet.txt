@@ -1,5 +1,5 @@
 <model-viewer src="heiji-v1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
-    <button class="Hotspot" slot="hotspot-1" data-position="-0.06935836136211672m 0.2940176980088404m 0.28853555322441005m" data-normal="0.032815244176846496m 0.40408540390790154m 0.9141324554451624m" data-visibility-attribute="visible">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.10840725617397873m 0.27878544056720117m 0.30035814809067385m" data-normal="0.09528690215285962m 0.4895200842272841m 0.8667701502798906m" data-visibility-attribute="visible">
         <div class="HotspotAnnotation">服部平次</div>
     </button>
     <div class="progress-bar hide" slot="progress-bar">
